@@ -1,0 +1,54 @@
+{
+  "name": "music-list",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mantine/core": "^2.0.6",
+    "@mantine/hooks": "^2.0.6",
+    "@modulz/radix-icons": "^4.0.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-custom-scrollbars": "^4.0.8",
+    "@types/react-dom": "^17.0.0",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-custom-scrollbars-2": "^4.4.0",
+    "react-dom": "^17.0.2",
+    "react-jss": "^10.7.1",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/webfontloader": "^1.6.33"
+  }
+}

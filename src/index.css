@@ -1,0 +1,48 @@
+html {
+    min-height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 992px) {
+    html {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .root {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(66, 66, 66);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ff7626;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
